@@ -1,0 +1,39 @@
+html,
+body{
+    background-color: peachpuff;
+    
+}
+article{
+    flex-basis: column;
+    display:flex;
+    flex: 1;
+    background-color: black;
+    color: antiquewhite;
+    padding: 30px;
+    border: 1px solid brown;
+
+}
+header{
+ display: flex;
+ flex: 1;
+ flex-basis: column;
+ background-color: black;
+ color :antiquewhite;
+
+}
+.one{
+  border: 1px solid blue;
+  border-style: dashed;
+  background-color: black;
+  color: white;
+}
+.two{
+  border: 1px solid yellow;
+  background-color: black;
+  color: white;
+  border-style: dashed;
+}
+button{
+  background-color: red;
+  color: white;
+}
